@@ -3,8 +3,7 @@ on:
   workflow_dispatch:  # Allows manual triggering
   # no push triggers
   # no pull request triggers
-  schedule:
-    - cron: '00 05 * * *'
+  # no schedule triggers
 
 jobs:
   xygeni-scan:
